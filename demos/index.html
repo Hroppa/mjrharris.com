@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Demos — Maxwell Harris</title>
+    <meta
+      name="description"
+      content="Interactive demos, small tools and working prototypes by Maxwell Harris."
+    />
+    <meta name="theme-color" content="#f2f0e9" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mjrharris.com/demos/" />
+    <meta property="og:title" content="Demos — Maxwell Harris" />
+    <meta
+      property="og:description"
+      content="Interactive demos, small tools and working prototypes."
+    />
+
+    <link rel="canonical" href="https://mjrharris.com/demos/" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/scripts/site.js" defer></script>
+  </head>
+
+  <body class="demos-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="site-name" href="/">Maxwell Harris</a>
+
+      <nav class="page-picker" aria-label="Pages">
+        <a href="/">Home</a>
+        <a class="is-active" href="/demos/" aria-current="page">Demos</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="demos-intro" aria-labelledby="demos-heading">
+        <p class="eyebrow">Experiments and prototypes</p>
+        <h1 id="demos-heading">Demos</h1>
+      </section>
+
+      <section class="demo-index" aria-label="Published demos">
+        <div class="demo-index-heading">
+          <p>Index</p>
+          <p id="demo-count" aria-live="polite"></p>
+        </div>
+
+        <div id="demo-grid" class="demo-grid">
+          <noscript>
+            <p class="empty-state">Enable JavaScript to view the demo index.</p>
+          </noscript>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year">2026</span> Maxwell Harris</p>
+      <a class="back-to-top" href="#main">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
